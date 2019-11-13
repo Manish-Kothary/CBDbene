@@ -9,6 +9,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import base.BasePage
 import createAccount.CreateAccountPage
+import data.Person
 
 public class AmbassadorApplicationPage extends BasePage{
 
@@ -22,6 +23,11 @@ public class AmbassadorApplicationPage extends BasePage{
 	private static final TestObject INPUT_REASON      = findTestObject('AmbassadorApplicationPage/input_reason')
 	private static final TestObject TEXT_SUCCESSFUL_APPLICATION      = findTestObject('Object Repository/AmbassadorApplicationPage/text_successful_application')
 
+	public void enterData(Person person,String password, String profession, String website, String instagram, String facebook, 
+						  String reason, String network){
+		   enterData(person.getFirstName(),person.getLastName(),person.getEmail(),person.getPhone(),password,profession,website,instagram,facebook,person.getZipCode(),reason,network)
+	}
+	
 	public void enterData(String firstName, String lastName, String email, String phone, String password, 
 						  String profession, String website, String instagram, String facebook, 
 						  String zipCode, String reason, String network){
@@ -66,8 +72,13 @@ public class AmbassadorApplicationPage extends BasePage{
 	public void clickRegisterButton(){
 		registration.clickRegisterButton()
 	}
+	
+	public void validateEmailNotTaken(){
+		registration.validateEmailNotTaken()
+	}
+	
 	public void validateSuccessfulApplication(){
-		Assert.assertTrue("Successful Application message not found after 60 seconds.", WebUI.waitForElementVisible(TEXT_SUCCESSFUL_APPLICATION,60))
+		Assert.assertTrue("Successful Application message not found after 10 seconds.", WebUI.waitForElementVisible(TEXT_SUCCESSFUL_APPLICATION,10))
 	}
 	
 	

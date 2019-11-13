@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ambassador Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4daa8309-3598-4924-91c4-119cd52f5f6f</testCaseGuid>
+   <variable>
+      <defaultValue>'Ambassador'</defaultValue>
+      <description></description>
+      <id>7f6ddda9-8f10-4644-a3c7-dd535b450fa0</id>
+      <masked>false</masked>
+      <name>profession</name>
+   </variable>
+   <variable>
+      <defaultValue>'www.cbdbene.com'</defaultValue>
+      <description></description>
+      <id>d1c154bd-3c38-46fb-9432-8b80e300835f</id>
+      <masked>false</masked>
+      <name>website</name>
+   </variable>
+   <variable>
+      <defaultValue>'www.instagram.com'</defaultValue>
+      <description></description>
+      <id>5263020b-f387-4da7-9915-6d0920d89836</id>
+      <masked>false</masked>
+      <name>instagram</name>
+   </variable>
+   <variable>
+      <defaultValue>'www.facebook.com'</defaultValue>
+      <description></description>
+      <id>17a66d2c-bd97-4f67-9d50-409cd69450c9</id>
+      <masked>false</masked>
+      <name>facebook</name>
+   </variable>
+   <variable>
+      <defaultValue>'1-50'</defaultValue>
+      <description></description>
+      <id>0c3c2573-c36a-4df0-aeed-0abb5179d94f</id>
+      <masked>false</masked>
+      <name>network</name>
+   </variable>
+   <variable>
+      <defaultValue>'I want to be an Ambassador to make more use of these products'</defaultValue>
+      <description></description>
+      <id>94f1f1af-3c97-495d-8170-f9c24d00b830</id>
+      <masked>false</masked>
+      <name>reason</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>21939af6-49d9-48f9-9be7-6e599becb3ad</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

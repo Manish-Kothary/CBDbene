@@ -1,30 +1,21 @@
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import ambasaddorLogin.AmbassadorLoginPage
-import ambassadorApplication.AmbassadorApplicationPage
-import data.Password
-import homePage.HomePage
-import main.Application
+import data.PersonData as PersonData
+import homePage.HomePage as HomePage
+import main.Application as Application
 
 Application.start()
 
 HomePage homePage = new HomePage()
 
-homePage.footerSection.clickLinkAffiliateProgram()
+PersonData personData = new PersonData()
 
-AmbassadorLoginPage ambassador = new AmbassadorLoginPage()
+for (int i = 0; i < personData.getQuantity(); i++) {
+//for (int i = 1; i < 10; i++) {
+    WebUI.callTestCase(findTestCase('SubTestCase/Ambassador Registration'), [('index') : i], FailureHandling.CONTINUE_ON_FAILURE)
+}
 
-ambassador.clickRegistrationLink()
 
-AmbassadorApplicationPage ambassadorApplication = new AmbassadorApplicationPage()
-
-def password = Password.generate(lastName, zipCode)
-
-ambassadorApplication.enterData(firstName, lastName, email, phone, password, profession, website, instagram, facebook, zipCode, reason, network)
-  
-ambassadorApplication.clickRegisterButton()
-
-ambassadorApplication.validateSuccessfulApplication()

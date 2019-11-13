@@ -24,36 +24,6 @@
          </iterationEntity>
          <testDataId>Data Files/registration_details</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>468cda34-c14a-42a8-a87e-92770185da5e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6656dbd1-4613-4330-91fd-822a36f7c860</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>36e4804b-0a31-484c-8ef4-281ab45639bd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>58a05943-21e1-4c3c-a802-fc133bcdd9b9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e19b81f2-9b8c-4f50-a551-aa0916efbf91</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>df9619df-b729-4b27-9b96-10159d637c7d</guid>
@@ -1152,35 +1122,5 @@
          </iterationEntity>
          <testDataId>Data Files/validation_check_data</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>468cda34-c14a-42a8-a87e-92770185da5e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6656dbd1-4613-4330-91fd-822a36f7c860</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>36e4804b-0a31-484c-8ef4-281ab45639bd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>58a05943-21e1-4c3c-a802-fc133bcdd9b9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e19b81f2-9b8c-4f50-a551-aa0916efbf91</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
