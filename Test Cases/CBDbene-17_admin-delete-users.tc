@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CBDbene-17_admin-delete-users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb0232b2-8adf-4c78-a872-b09f204c7f05</testCaseGuid>
+   <variable>
+      <defaultValue>'mkothary@gmail.com'</defaultValue>
+      <description></description>
+      <id>c1c54b7b-f683-4b6f-b2ac-6836635af511</id>
+      <masked>false</masked>
+      <name>adminEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'ylonnHMn4pNylpzcWM74Gg=='</defaultValue>
+      <description></description>
+      <id>f5496b3f-a7e8-4fd0-89e8-f463bf5d3233</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4989734-8636-4c2c-8c9e-50241c2f8519</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>897483f8-3dbd-45a4-8dd0-f2d82e2a5d2b</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

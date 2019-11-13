@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-Register users from 'Real contacts' or 'Real New York' sheets, etc
+ -Use password as combination of lastname+zipcode</description>
+   <name>CBDbene-01_user_registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>392820fb-d069-41fe-9734-300056762d42</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>468cda34-c14a-42a8-a87e-92770185da5e</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6656dbd1-4613-4330-91fd-822a36f7c860</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36e4804b-0a31-484c-8ef4-281ab45639bd</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58a05943-21e1-4c3c-a802-fc133bcdd9b9</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e19b81f2-9b8c-4f50-a551-aa0916efbf91</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+</TestCaseEntity>

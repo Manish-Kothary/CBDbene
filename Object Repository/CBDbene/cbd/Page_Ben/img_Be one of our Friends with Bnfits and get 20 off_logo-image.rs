@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Be one of our Friends with Bnfits and get 20 off_logo-image</name>
+   <tag></tag>
+   <elementGuidId>287a1b22-7ef5-411e-a163-aa29930dfd68</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logo-image</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/png;base64,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</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Bené</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;main-app&quot;]/div[@class=&quot;whole-header&quot;]/div[2]/div[@class=&quot;inner-header&quot;]/div[@class=&quot;header_1&quot;]/div[1]/nav[@class=&quot;Nav&quot;]/div[@class=&quot;Nav-header Nav-large&quot;]/ul[@class=&quot;Nav-list Nav-list--inline Nav-list--mainNav&quot;]/li[@class=&quot;Nav-listItem&quot;]/a[@class=&quot;cursor-pointer CustomLink Nav-listLink&quot;]/img[@class=&quot;logo-image&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/nav/div/ul/li/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Be one of our “Friends with Bénéfits” and get 20% off!.'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oils'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capsules'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Bené']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CBDbene-04_Ambassador_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3cbe55d9-2e71-420f-aa94-df6534bd0c60</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da690d46-77db-4541-a911-e965ce3a24ae</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3bf1c1c7-29d7-46b0-8e34-2585ecd95769</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>270cdc1b-af90-4715-9745-d2e8471351a7</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b453865-f138-48c4-a99d-7bf7323d0c45</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

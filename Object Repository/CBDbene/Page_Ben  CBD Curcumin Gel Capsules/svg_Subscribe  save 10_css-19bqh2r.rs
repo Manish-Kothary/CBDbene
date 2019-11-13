@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Subscribe  save 10_css-19bqh2r</name>
+   <tag></tag>
+   <elementGuidId>e24edb34-6868-418d-9f65-1a5cc5518784</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 20 20</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-19bqh2r</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;main-app&quot;]/div[@class=&quot;main-section&quot;]/div[@class=&quot;first_sec&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;large-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;product-detail-data&quot;]/div[@class=&quot;product-detail-inner&quot;]/div[@class=&quot;ProductDetails&quot;]/ul[@class=&quot;ProductDetails-list&quot;]/li[@class=&quot;ProductDetails-listItem--2&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;pt-3 col-12&quot;]/div[@id=&quot;selectVarient&quot;]/div[@class=&quot;css-ogsf1i-control&quot;]/div[@class=&quot;css-1wy0on6&quot;]/div[@class=&quot;css-149xjth-indicatorContainer&quot;]/svg[@class=&quot;css-19bqh2r&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

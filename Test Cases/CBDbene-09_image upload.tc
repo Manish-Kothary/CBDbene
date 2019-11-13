@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CBDbene-09_image upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4abb8932-a93f-4492-a248-0c0df7e1465a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9bcc0b9b-e53f-4df5-b3c9-295b68c84adc</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83c40993-b0ae-4772-b61c-7ceb983d71a2</id>
+      <masked>false</masked>
+      <name>image_path</name>
+   </variable>
+   <variable>
+      <defaultValue>'mkothary@gmail.com'</defaultValue>
+      <description></description>
+      <id>9d35cf08-707b-4d4b-9fa1-f013e3459fd9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'ylonnHMn4pNylpzcWM74Gg=='</defaultValue>
+      <description></description>
+      <id>5f2d8aa0-f4c8-4f53-9c20-b084d221daeb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

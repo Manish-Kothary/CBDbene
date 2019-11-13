@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CBDbene-03_userlogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7fc0760-5a68-45f4-93fa-99aa547c9d53</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da690d46-77db-4541-a911-e965ce3a24ae</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3bf1c1c7-29d7-46b0-8e34-2585ecd95769</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>270cdc1b-af90-4715-9745-d2e8471351a7</id>
+      <masked>false</masked>
+      <name>zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3285886-949c-4de7-8e59-13ff70a64510</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+</TestCaseEntity>

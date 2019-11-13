@@ -1,0 +1,9 @@
+Drivers/
+*.class
+Reports/
+TempTestSuite*
+TempTestCase*
+.classpath
+bin/
+Libs/internal/GlobalVariable.groovy
+Libs/CustomKeywords.groovy

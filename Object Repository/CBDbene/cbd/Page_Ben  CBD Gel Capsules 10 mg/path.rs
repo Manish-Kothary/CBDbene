@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>88552d2d-3067-4479-a263-1800c6cea931</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M52.2,39.993c1.132-0.074,2.092-0.776,2.536-1.763l0,0l9-20l-0.006-0.002C63.9,17.853,64,17.439,64,17
+				c0-1.657-1.343-3-3-3H16.578l-1.747-4.991L14.82,9.013C14.411,7.844,13.309,7,12,7H3c-1.657,0-3,1.343-3,3s1.343,3,3,3h6.872
+				l11.55,33H16c-3.314,0-6,2.686-6,6s2.686,6,6,6s6-2.686,6-6h28c0,3.314,2.686,6,6,6s6-2.686,6-6s-2.686-6-6-6H27.778
+				l-1.497-4.279L52.2,39.993L52.2,39.993z M24.224,35.846L18.679,20h37.68l-6.356,14.127L24.224,35.846z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SHOPPING_CART_1_&quot;)/g[@id=&quot;SHOPPING_CART&quot;]/g[@id=&quot;SHOPPING_CART&quot;]/g[1]/g[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CBDbene-05_Contact form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a804409-b2f4-44db-a998-6579f2a7730b</testCaseGuid>
+   <variable>
+      <defaultValue>'ken'</defaultValue>
+      <description></description>
+      <id>f41d7ad5-d7fd-4d7c-ba49-3f0c70b1fa6c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'kbauer@microscopeworld.testcom'</defaultValue>
+      <description></description>
+      <id>ac31c483-1424-4f0e-8e36-c7e8c565757b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Need to know about the delivery details'</defaultValue>
+      <description></description>
+      <id>094160fc-4712-4cdd-9eb3-358d43329840</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

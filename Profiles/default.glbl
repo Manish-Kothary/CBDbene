@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\ms\\Google Drive (cbdbene@gmail.com)\\QA\\Katalon\\CBDbene-project\\Test Cases'</initValue>
+      <name>G_location</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'file:///C:/Users/ms/Google%20Drive%20(cbdbene@gmail.com)/QA/Katalon/CBDbene-project/Data%20Files/links.htm'</initValue>
+      <name>G_locationURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://cbdbene.com/US'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>30</initValue>
+      <name>DEFAULT_WAIT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://admin.cbdbene.com/users/login'</initValue>
+      <name>ADMIN_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>ROW</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

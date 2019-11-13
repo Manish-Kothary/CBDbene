@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>-Register users from 'Real contacts' or 'Real New York' sheets, etc
+ -Use password as combination of lastname+zipcode</description>
+   <name>Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12167d46-3343-4e0a-873b-54a3cb878ba7</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4fba5a62-7ee2-4a5e-bed1-2f1ef0aaf8bc</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

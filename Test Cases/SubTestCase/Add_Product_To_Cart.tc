@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_Product_To_Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44a19e00-4b60-4046-ab51-9840c47a62f6</testCaseGuid>
+   <variable>
+      <defaultValue>'Mint'</defaultValue>
+      <description></description>
+      <id>6aa27e0d-e2be-43c8-befe-1fe1da723cdc</id>
+      <masked>false</masked>
+      <name>flavor</name>
+   </variable>
+</TestCaseEntity>
