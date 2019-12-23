@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_logout</name>
+   <name>icon_close_sidebar</name>
    <tag></tag>
-   <elementGuidId>0d1a261e-0c8f-462b-82d5-66e01a20faac</elementGuidId>
+   <elementGuidId>1fa3d7c6-3047-48f4-8f5d-76d5511bb98d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@role=&quot;menuitem&quot;]//*[contains(text(),&quot;logout&quot;)]</value>
+         <value>(//*[@data-icon='left'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

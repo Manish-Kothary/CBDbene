@@ -4,7 +4,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 public class Application {
 
-	private static final String URL = "https://cbdbene.com/US"
+	private static final String URL = "https://cbdbene.com/"
 	private static final String ADMIN_URL = "https://admin.cbdbene.com/users/login"
 
 

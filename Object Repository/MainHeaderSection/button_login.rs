@@ -6,12 +6,12 @@
    <elementGuidId>ae9d8e0b-4ee7-41eb-bdc0-a5b22a7f5b13</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Login' or . = 'Login')]</value>
+         <key>XPATH</key>
+         <value>//*[@data-src=&quot;/images/user-icon.svg&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/div/div/div/nav/div/ul[2]/li[3]/a/span</value>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Login' or . = 'Login')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

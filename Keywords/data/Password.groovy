@@ -19,8 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class Password {
-
+	
+	private static final int PASSWORD_CHARACTER_LIMIT = 20
+	
 	public static String generate(String data1, String data2){
-		return data1+data2
+		String password = data1 + data2
+		if (password.length() > PASSWORD_CHARACTER_LIMIT){
+			password = password.substring(0, PASSWORD_CHARACTER_LIMIT)
+		}
+		return password
 	}
 }

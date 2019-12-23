@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_logout</name>
+   <name>button_register</name>
    <tag></tag>
-   <elementGuidId>0d1a261e-0c8f-462b-82d5-66e01a20faac</elementGuidId>
+   <elementGuidId>d2d7b4cc-2abf-4948-9b71-4c39a5d8be26</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@role=&quot;menuitem&quot;]//*[contains(text(),&quot;logout&quot;)]</value>
+         <value>(//button[text()='Register'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

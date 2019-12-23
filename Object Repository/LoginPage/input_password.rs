@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id='login_password']</value>
+         <value>(//*[@placeholder='Password'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id='login_email']</value>
+         <value>(//*[@placeholder='E-mail'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

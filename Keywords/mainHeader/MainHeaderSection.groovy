@@ -20,6 +20,7 @@ public class MainHeaderSection extends BasePage{
 	
 	public void clickLoginButton(){
 		topClick(BUTTON_LOGIN)
+		WebUI.delay(1)
 	}
 
 	public void clickButtonMyAccount(){
@@ -52,10 +53,10 @@ public class MainHeaderSection extends BasePage{
 		return WebUI.waitForElementVisible(OPTION_ACCOUNT, 5)
 	}
 	
-	public void clickLogout(){
+	public void clickLogoutOption(){
 		WebUI.mouseOver(BUTTON_LOGIN)
-		WebUI.click(OPTION_LOGOUT)
 		WebUI.delay(1)
-		WebUI.click(BUTTON_LOGOUT_ACCEPT)
+		WebUI.click(OPTION_LOGOUT)	
+		WebUI.delay(1)
 	}
 }

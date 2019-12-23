@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_logout</name>
+   <name>text_account_already_registered</name>
    <tag></tag>
-   <elementGuidId>0d1a261e-0c8f-462b-82d5-66e01a20faac</elementGuidId>
+   <elementGuidId>dc2c7ad5-a8d6-4100-91ce-2f602ef3246c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@role=&quot;menuitem&quot;]//*[contains(text(),&quot;logout&quot;)]</value>
+         <value>//*[contains(text(),'Looks like you already')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

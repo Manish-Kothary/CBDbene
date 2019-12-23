@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_logout</name>
+   <name>sidebar</name>
    <tag></tag>
-   <elementGuidId>0d1a261e-0c8f-462b-82d5-66e01a20faac</elementGuidId>
+   <elementGuidId>09ff091d-41a0-4d17-9bce-55f35a8ece63</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@role=&quot;menuitem&quot;]//*[contains(text(),&quot;logout&quot;)]</value>
+         <value>//*[@class=&quot;c-drawer-title__go-back-wrapper&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

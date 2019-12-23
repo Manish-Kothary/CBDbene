@@ -1,10 +1,8 @@
-import com.kms.katalon.core.util.KeywordUtil
-
-import createAccount.CreateAccountPage as CreateAccountPage
 import data.Password as Password
 import data.Person
 import data.PersonData
 import loginPage.LoginPage as LoginPage
+import main.Application
 import mainHeader.MainHeaderSection
 
 PersonData personData = new PersonData()
@@ -17,20 +15,17 @@ mainHeader.clickLoginButton()
 
 LoginPage loginPage = new LoginPage()
 
-loginPage.clickCreateYourBeneAccount()
-
-CreateAccountPage createAccount = new CreateAccountPage()
-
 def password = Password.generate(person.getLastName(), person.getZipCode())
 
-createAccount.enterAccountInformation(person, password)
+loginPage.enterEmail(person.getEmail())
 
-createAccount.clickRegisterButton()
+loginPage.enterPassword(password)
 
-createAccount.validateEmailNotTaken()
+loginPage.clickRegisterButton()
 
-if(mainHeader.validateAccountName(person.getFirstName())){
-	mainHeader.clickLogout()
-}else{
-	KeywordUtil.markFailed("Registration not done.")
+if (loginPage.accountAlreadyRegistered()){
+	Application.start()
+}
+else {
+	mainHeader.clickLogoutOption()
 }
