@@ -1,20 +1,20 @@
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import data.Password
+import data.PersonData as PersonData
 import homePage.HomePage as HomePage
-import loginPage.LoginPage as LoginPage
 import main.Application as Application
 
 Application.start()
 
 HomePage homePage = new HomePage()
 
-homePage.mainHeader.clickLoginButton()
+PersonData personData = new PersonData()
 
-LoginPage loginPage = new LoginPage()
+//for (int i = 1; i < personData.getQuantity(); i++) {
+for (int i = 1 ; i < 10; i++) {
+    WebUI.callTestCase(findTestCase('SubTestCase/Login'), [('index') : i], FailureHandling.CONTINUE_ON_FAILURE)
+}
 
-def password = Password.generate(lastName, zipCode)
-
-loginPage.login(email, password)
-
-homePage.mainHeader.validateAccountName(firstName)

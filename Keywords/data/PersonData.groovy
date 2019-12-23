@@ -10,7 +10,8 @@ public class PersonData {
 	private static final TestData EXCEL_FILE = findTestData('Data Files/registration_details')
 
 	public int getQuantity(){
-		return EXCEL_FILE.getRowNumbers()
+		return 600
+		// return EXCEL_FILE.getRowNumbers()
 	}
 
 	public Person getPerson(int row){
@@ -33,5 +34,10 @@ public class PersonData {
 		KeywordUtil.logInfo("Email: " + email)
 		KeywordUtil.logInfo("Zip Code: " + zipCode)
 		return new Person(firstName,lastName,address1,address2,city,state,zipCode,phone,email)
+	}
+
+	public Person getRandomPerson(){
+		int randomRow = new Random().nextInt(getQuantity())
+		return getPerson(randomRow)
 	}
 }

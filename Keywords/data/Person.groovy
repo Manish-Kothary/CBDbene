@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class Person {
-	
+
 	private String firstName, lastName, address1, address2, city, state, country, zipCode, phone, email
-	
+
 	public Person(_firstName,_lastName,_address1,_address2,_city,_state,_zipCode,_phone,_email){
 		firstName = _firstName
 		lastName = _lastName
@@ -34,45 +34,44 @@ public class Person {
 		phone = _phone
 		email = _email
 	}
-	
+
 	public String getFirstName(){
 		return firstName
 	}
-	
+
 	public String getLastName(){
 		return lastName
 	}
-	
+
 	public String getAddress1(){
 		return address1
 	}
-	
+
 	public String getAddress2(){
 		return address2
 	}
-	
+
 	public String getCity(){
 		return city
 	}
-	
+
 	public String getState(){
 		return state
 	}
-	
+
 	public String getCountry(){
 		return country
 	}
-	
+
 	public String getZipCode(){
 		return zipCode
 	}
-	
+
 	public String getPhone(){
 		return phone
 	}
-	
+
 	public String getEmail(){
 		return email
 	}
-	
 }

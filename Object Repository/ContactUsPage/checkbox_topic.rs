@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_contact_us</name>
+   <name>checkbox_topic</name>
    <tag></tag>
-   <elementGuidId>942a1128-c81c-4cc4-ae11-4fd784aecdd1</elementGuidId>
+   <elementGuidId>b2b1da75-daf9-48a3-973e-19eaa783ec3a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()='Contact Us']</value>
+         <value>(//*[@type='radio'])[${index}]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

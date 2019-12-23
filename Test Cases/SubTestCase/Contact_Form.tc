@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Contact_Form</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe55f248-7460-4fdc-9499-0d8bfa073a3a</testCaseGuid>
+   <variable>
+      <defaultValue>'ken'</defaultValue>
+      <description></description>
+      <id>39e60650-8d85-423a-b251-cc50b8d01e54</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'kbauer@microscopeworld.testcom'</defaultValue>
+      <description></description>
+      <id>017ce014-4364-4192-a545-cc8a85fe11bd</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Need to know about the delivery details'</defaultValue>
+      <description></description>
+      <id>589e3459-e64d-441d-be8d-5b92b435fd18</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>75a2e8d3-a361-4c7a-891e-2ba3b26190d0</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+</TestCaseEntity>

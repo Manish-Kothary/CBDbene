@@ -90,7 +90,6 @@ public class WebOperations {
 		scrollToElement(testObject)
 		WebUI.delay(2)
 		waitForElementVisible(testObject)
-		waitForElementClickable(testObject)
 		WebUI.click(testObject)
 	}
 }

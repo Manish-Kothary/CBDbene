@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_contact_us</name>
+   <name>link_sign_in</name>
    <tag></tag>
-   <elementGuidId>942a1128-c81c-4cc4-ae11-4fd784aecdd1</elementGuidId>
+   <elementGuidId>bf62ad54-aff0-4262-b347-1d0eec3c999b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()='Contact Us']</value>
+         <value>(//*[text()='SIGN IN'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

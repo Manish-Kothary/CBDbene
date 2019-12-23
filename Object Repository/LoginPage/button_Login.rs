@@ -6,15 +6,15 @@
    <elementGuidId>60899a1d-75b7-4eda-8be8-54f07e18bd70</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[text()='Login'])[3]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

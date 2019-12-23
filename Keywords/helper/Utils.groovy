@@ -21,8 +21,12 @@ import internal.GlobalVariable
 public class Utils {
 
 	public static String getRandomNumber(int maxValue){
+		return getRandomIntNumber(maxValue).toString()
+	}
+	
+	public static int getRandomIntNumber(int maxValue){
 		int randomNumber = new Random().nextInt(maxValue)
-		randomNumber = randomNumber==0?1:randomNumber
-		return randomNumber.toString()
+		randomNumber = randomNumber == 0? 1 : randomNumber
+		return randomNumber
 	}
 }
