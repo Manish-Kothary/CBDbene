@@ -5,6 +5,8 @@ import loginPage.LoginPage as LoginPage
 import main.Application
 import mainHeader.MainHeaderSection
 
+Application.start()
+
 PersonData personData = new PersonData()
 	
 Person person = personData.getPerson(index)
@@ -23,9 +25,6 @@ loginPage.enterPassword(password)
 
 loginPage.clickRegisterButton()
 
-if (loginPage.accountAlreadyRegistered()){
-	Application.start()
-}
-else {
+if (!loginPage.accountAlreadyRegistered()){
 	mainHeader.clickLogoutOption()
 }
