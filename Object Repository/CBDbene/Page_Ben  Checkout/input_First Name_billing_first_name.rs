@@ -4,7 +4,17 @@
    <name>input_First Name_billing_first_name</name>
    <tag></tag>
    <elementGuidId>c989fbfe-298c-4847-ab4b-c6121bc25f8f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='First Name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'billing_first_name' and @type = 'text' and @name = 'billing_first_name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

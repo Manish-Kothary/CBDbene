@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>picture_product</name>
+   <name>icon_close_sidebar</name>
    <tag></tag>
-   <elementGuidId>bb9e36cb-a5a4-4e1c-acfa-fb47689ce066</elementGuidId>
+   <elementGuidId>fbd5eb40-7e37-4f6a-8a43-2ee84885b364</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@class=&quot;c-product-card__img&quot;])[${index}]</value>
+         <value>(//*[@data-icon='left'])[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>picture_product</name>
+   <name>link_shop</name>
    <tag></tag>
-   <elementGuidId>bb9e36cb-a5a4-4e1c-acfa-fb47689ce066</elementGuidId>
+   <elementGuidId>4aaf31a5-5d8d-45ad-8cb3-1a1399ca0c93</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@class=&quot;c-product-card__img&quot;])[${index}]</value>
+         <value>//li/*[@href='/shop']</value>
       </entry>
       <entry>
          <key>BASIC</key>

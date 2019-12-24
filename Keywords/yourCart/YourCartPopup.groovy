@@ -9,8 +9,8 @@ import base.BasePage
 
 public class YourCartPopup extends BasePage{
 
-	private static final TestObject BUTTON_CHECKOUT = findTestObject('Object Repository/YourCartPopUp/button_checkout')
-	private static final TestObject BUTTON_CLOSE    = findTestObject('Object Repository/YourCartPopUp/button_checkout')
+	private static final TestObject BUTTON_CHECKOUT = findTestObject('YourCartPopUp/button_checkout')
+	private static final TestObject BUTTON_CLOSE    = findTestObject('YourCartPopUp/icon_close_sidebar')
 	
 	public void clickCheckoutButton(){
 		WebOp.waitForElementVisible(BUTTON_CHECKOUT)

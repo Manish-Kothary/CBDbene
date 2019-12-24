@@ -4,7 +4,17 @@
    <name>input_Last Name_billing_last_name</name>
    <tag></tag>
    <elementGuidId>2a558e74-32a6-4325-ac06-2ea56bb263f0</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Last Name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'billing_last_name' and @type = 'text' and @name = 'billing_last_name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -17,6 +17,7 @@ public class MainHeaderSection extends BasePage{
 	private static final TestObject OPTION_ACCOUNT	  = findTestObject('MainHeaderSection/text_hi_my_account')
 	private static final TestObject OPTION_LOGOUT	  = findTestObject('MainHeaderSection/option_logout')
 	private static final TestObject BUTTON_LOGOUT_ACCEPT = findTestObject('MainHeaderSection/button_accept_logout')
+	private static final TestObject LINK_SHOP		  = findTestObject('MainHeaderSection/link_shop')
 	
 	public void clickLoginButton(){
 		topClick(BUTTON_LOGIN)
@@ -51,6 +52,11 @@ public class MainHeaderSection extends BasePage{
 	public boolean validateAccountName(String name){
 		findMyAccountName(name.trim())
 		return WebUI.waitForElementVisible(OPTION_ACCOUNT, 5)
+	}
+	
+	public void clickShop(){
+		topClick(LINK_SHOP)
+		WebUI.delay(1)
 	}
 	
 	public void clickLogoutOption(){

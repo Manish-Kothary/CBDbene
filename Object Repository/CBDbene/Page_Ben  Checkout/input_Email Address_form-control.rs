@@ -4,7 +4,17 @@
    <name>input_Email Address_form-control</name>
    <tag></tag>
    <elementGuidId>86707525-8f56-4565-885c-52d79a658449</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Phone Number']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = '+1 (702) 123-4567' and @type = 'tel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

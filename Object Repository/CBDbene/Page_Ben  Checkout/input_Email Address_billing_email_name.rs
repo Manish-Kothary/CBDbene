@@ -4,7 +4,17 @@
    <name>input_Email Address_billing_email_name</name>
    <tag></tag>
    <elementGuidId>39a02dd7-a7aa-4d18-890b-12829c7abc9b</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='E-mail']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'billing_email_name' and @type = 'text' and @name = 'billing_email_name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -20,7 +20,7 @@ import internal.GlobalVariable
 
 public class Links {
 
-	private static final TestData EXCEL_LINKS = findTestData('Data Files/Sources/links')
+	private static final TestData EXCEL_LINKS = findTestData('Data Files/links')
 
 	public int getQuantity(){
 		return EXCEL_LINKS.getRowNumbers()

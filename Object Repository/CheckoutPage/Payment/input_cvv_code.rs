@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CVV Code_cvNumber</name>
+   <name>input_cvv_code</name>
    <tag></tag>
-   <elementGuidId>6fb72dd0-b382-41f3-9f19-6a9b4fda60cf</elementGuidId>
+   <elementGuidId>865ddae5-d62a-4a67-99d3-4eef2e40e349</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

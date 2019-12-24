@@ -14,12 +14,14 @@ public class BillingAddressSection extends BasePage{
 	INPUT_LAST_NAME  = findTestObject('Object Repository/CBDbene/Page_Ben  Checkout/input_Last Name_billing_last_name'),
 	INPUT_PHONE	     = findTestObject('Object Repository/CBDbene/Page_Ben  Checkout/input_Email Address_form-control'),
 	INPUT_EMAIL		 = findTestObject('Object Repository/CBDbene/Page_Ben  Checkout/input_Email Address_billing_email_name'),
-	INPUT_ADDRESS	 = findTestObject('Object Repository/zz/Page_Ben  Checkout/input_Address_other'),
-	INPUT_COUNTRY 	 = findTestObject('Object Repository/zz/Page_Ben  Checkout/input_Country_country'),
-	INPUT_STATE 	 = findTestObject('Object Repository/zz/Page_Ben  Checkout/input_State_state'),
-	INPUT_CITY		 = findTestObject('Object Repository/zz/Page_Ben  Checkout/input_City_city'),
-	INPUT_ZIP_CODE 	 = findTestObject('Object Repository/zz/Page_Ben  Checkout/input_Zip Code_zip'),
-	INPUT_SEARCH_ADDRESS = findTestObject('Object Repository/BillingAddressSection/input_search_address')
+	INPUT_ADDRESS	 = findTestObject('Object Repository/CheckoutPage/input_address'),
+	INPUT_COUNTRY 	 = findTestObject('Object Repository/CheckoutPage/input_country'),
+	INPUT_STATE 	 = findTestObject('Object Repository/CheckoutPage/input_state'),
+	INPUT_CITY		 = findTestObject('Object Repository/CheckoutPage/input_city'),
+	INPUT_ZIP_CODE 	 = findTestObject('Object Repository/CheckoutPage/input_zip_code'),
+	INPUT_SEARCH_ADDRESS = findTestObject('Object Repository/BillingAddressSection/input_search_address'),
+	BUTTON_CONTINUE_TO_SHOPPING = findTestObject('Object Repository/CheckoutPage/button_continue_to_shopping'),
+	OPTION_ADDRESS_SUGGESTION_1	= findTestObject('Object Repository/CheckoutPage/option_suggestion_1')
 
 	public void displayAddressSection(){
 		WebUI.click(SPAN_ADD_A_ADDRESS)
@@ -34,15 +36,19 @@ public class BillingAddressSection extends BasePage{
 	}
 
 	public void enterEmail(String email) {
-		WebUI.setText(INPUT_EMAIL, email)
+		WebUI.setText(INPUT_EMAIL, email.trim())
 	}
 
 	public void enterPhone(String phone){
+		phone = phone.replace('-', '')
 		WebUI.setText(INPUT_PHONE, phone)
 	}
 
 	public void enterAddress(String address){
+		address = address.substring(0,11)
 		WebUI.setText(INPUT_ADDRESS, address)
+		WebUI.delay(1)
+		WebUI.click(OPTION_ADDRESS_SUGGESTION_1)
 	}
 
 	public void enterCountry(String country){
@@ -69,15 +75,14 @@ public class BillingAddressSection extends BasePage{
 		enterPhone(phone)
 		enterZipCode(zipCode)
 		enterAddress(address)
-//		searchAddress(address)
-		enterCountry(country)
-		enterState(state)
-		enterCity(city)
-		WebUI.delay(5)
-		searchAddress(address)
+//		enterCountry(country)
+//		enterState(state)
+//		enterCity(city)
+		WebUI.delay(1)
+		WebUI.click(BUTTON_CONTINUE_TO_SHOPPING)
 	}
 			
 	public void searchAddress(String address){
-		WebOp.sendKeys(INPUT_SEARCH_ADDRESS, address)
+		WebOp.sendKeys(INPUT_ADDRESS, address)
 	}
 }

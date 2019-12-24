@@ -7,7 +7,9 @@ import productList.ProductListPage
 
 MainHeaderSection mainHeader = new MainHeaderSection()
 
-mainHeader.selectProductCategory(Category.getRandomCategoryNumber())
+mainHeader.clickShop()
+
+// mainHeader.selectProductCategory(Category.getRandomCategoryNumber())
 
 ProductListPage productList = new ProductListPage()
 
@@ -21,6 +23,6 @@ product.clickAddToCartButton()
 
 product.yourCartPopUp().closePopup()
 
-CheckoutPage checkout = new CheckoutPage()
-
-checkout.clickContinueShopping()
+//CheckoutPage checkout = new CheckoutPage()
+//
+//checkout.clickContinueShopping()

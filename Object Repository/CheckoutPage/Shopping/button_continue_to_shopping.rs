@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>picture_product</name>
+   <name>button_continue_to_shopping</name>
    <tag></tag>
-   <elementGuidId>bb9e36cb-a5a4-4e1c-acfa-fb47689ce066</elementGuidId>
+   <elementGuidId>ef809ac6-65ea-4deb-9116-665fef626dc7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@class=&quot;c-product-card__img&quot;])[${index}]</value>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

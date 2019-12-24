@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>picture_product</name>
+   <name>input_country</name>
    <tag></tag>
-   <elementGuidId>bb9e36cb-a5a4-4e1c-acfa-fb47689ce066</elementGuidId>
+   <elementGuidId>7f525afe-4388-432f-b9bd-d3c55fe9185b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@class=&quot;c-product-card__img&quot;])[${index}]</value>
+         <value>//input[@placeholder='Country']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

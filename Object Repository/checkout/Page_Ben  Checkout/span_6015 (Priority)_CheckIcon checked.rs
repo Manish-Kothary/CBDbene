@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@class='d-flex'])[2]</value>
+         <value>(//*[contains(@class,'ant-radio-wrapper')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

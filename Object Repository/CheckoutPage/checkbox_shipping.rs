@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>picture_product</name>
+   <name>checkbox_shipping</name>
    <tag></tag>
-   <elementGuidId>bb9e36cb-a5a4-4e1c-acfa-fb47689ce066</elementGuidId>
+   <elementGuidId>288b5ae5-03a6-47c0-a900-94ab1881b5b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@class=&quot;c-product-card__img&quot;])[${index}]</value>
+         <value>(//*[contains(@class,'ant-radio-wrapper')])[${index}]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

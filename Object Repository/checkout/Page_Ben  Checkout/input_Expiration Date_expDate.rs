@@ -4,7 +4,17 @@
    <name>input_Expiration Date_expDate</name>
    <tag></tag>
    <elementGuidId>ea9f287d-4152-4e74-812d-dc3c22e863c1</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='CheckoutPayment_expiry']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'expDate' and @name = 'expDate' and @type = 'text' and @placeholder = 'mm/yy']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

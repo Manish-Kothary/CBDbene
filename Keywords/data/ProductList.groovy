@@ -9,7 +9,7 @@ import helper.Utils
 
 public class ProductList{
 
-	private static final String XPATH_PRODUCT = "//picture"
+	private static final String XPATH_PRODUCT = "//img[@class='c-product-card__img']"
 
 	public static String getRandomProductIndex(){
 		int productsLength = getNumberOfProducts()

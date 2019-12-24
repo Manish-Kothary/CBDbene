@@ -4,7 +4,17 @@
    <name>input_Card Number_cardNumber</name>
    <tag></tag>
    <elementGuidId>c48efc22-3917-43bd-9caa-6fac9efe1aef</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='CheckoutPayment_cardnumber']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'cardNumber' and @name = 'cardNumber' and @type = 'text' and @placeholder = '0000-0000-0000-0000']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

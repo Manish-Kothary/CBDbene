@@ -12,18 +12,16 @@ yourCart.clickCheckoutButton()
 
 CheckoutPage checkout = new CheckoutPage()
 
-checkout.clickContinueAsGuestButton()
+//checkout.clickContinueAsGuestButton()
 
-checkout.billingAddress.displayAddressSection()
+//checkout.billingAddress.displayAddressSection()
 
 checkout.billingAddress.enterData(firstName, lastName, email, phone, address, country, state, city, zipCode)
 
 checkout.carrier.select(carrierOption)
 
-checkout.paymentMethod.payWithCard(cardNumber, expirationDate, cvv)
+checkout.carrier.clickContinueToShipping()
 
-checkout.clickSignMeUpForNewsCheckBox()
-
-checkout.clickPlaceOrderButton()
+checkout.paymentMethod.payWithCard(cardNumber, firstName, expirationDate, cvv)
 
 checkout.validateSuccessfulOrder()
