@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//footer//*[text()='Affiliate Program']</value>
+         <value>//*[text()='Affiliate Program']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

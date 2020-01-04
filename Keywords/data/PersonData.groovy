@@ -15,15 +15,15 @@ public class PersonData {
 	}
 
 	public Person getPerson(int row){
-		String firstName = EXCEL_FILE.getValue("CONTACT FIRST NAME", row)
-		String lastName  = EXCEL_FILE.getValue("CONTACT LAST NAME", row)
-		String address1  = EXCEL_FILE.getValue("Address Line 1", row)
-		String address2  = EXCEL_FILE.getValue("Address Line 2", row)
-		String city    	 = EXCEL_FILE.getValue("CITY", row)
-		String state   	 = EXCEL_FILE.getValue("ST", row)
-		String phone   	 = EXCEL_FILE.getValue("PHONE NUMBER", row)
-		String email   	 = EXCEL_FILE.getValue("E MAIL ADDRESS", row)
-		String zipCode   = EXCEL_FILE.getValue("ZIP CODE", row)
+		String firstName = EXCEL_FILE.getValue("CONTACT FIRST NAME", row).trim()
+		String lastName  = EXCEL_FILE.getValue("CONTACT LAST NAME", row).trim()
+		String address1  = EXCEL_FILE.getValue("Address Line 1", row).trim()
+		String address2  = EXCEL_FILE.getValue("Address Line 2", row).trim()
+		String city    	 = EXCEL_FILE.getValue("CITY", row).trim()
+		String state   	 = EXCEL_FILE.getValue("ST", row).trim()
+		String phone   	 = EXCEL_FILE.getValue("PHONE NUMBER", row).trim()
+		String email   	 = EXCEL_FILE.getValue("E MAIL ADDRESS", row).trim()
+		String zipCode   = EXCEL_FILE.getValue("ZIP CODE", row).trim()
 		KeywordUtil.logInfo("First Name: " + firstName)
 		KeywordUtil.logInfo("Last Name: " + lastName)
 		KeywordUtil.logInfo("Address 1: " + address1)
@@ -34,8 +34,8 @@ public class PersonData {
 		KeywordUtil.logInfo("Email: " + email)
 		KeywordUtil.logInfo("Zip Code: " + zipCode)
 		return new Person(firstName,lastName,address1,address2,city,state,zipCode,phone,email)
-	}
-
+	} 
+	
 	public Person getRandomPerson(){
 		int randomRow = new Random().nextInt(getQuantity())
 		return getPerson(randomRow)

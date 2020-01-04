@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>ef42edd7-a322-425a-9a6f-f3fddf5e249f</dataFileGUID>
-   <dataSourceUrl>Data Files/Test data-priya.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/Test data-priya.xls</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>login</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -3,9 +3,8 @@ package loginPage
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
-import com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain
 
 import base.BasePage
 
@@ -82,7 +81,11 @@ public class LoginPage extends BasePage{
 	}
 	
 	public boolean accountAlreadyRegistered() {
-		WebUI.waitForElementVisible(TEXT_ACCOUNT_ALREADY_REGISTERED, 1)
+		boolean accountAlreadyRegistered = WebUI.waitForElementVisible(TEXT_ACCOUNT_ALREADY_REGISTERED, 1)
+		if(accountAlreadyRegistered){
+			KeywordUtil.markWarning("Account Already Registered")
+		}
+		return accountAlreadyRegistered
 	}
 	
 	public void closeSideBar(){

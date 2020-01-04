@@ -13,8 +13,8 @@ HomePage homePage = new HomePage()
 
 PersonData personData = new PersonData()
 
-for (int i = 0; i < personData.getQuantity(); i++) {
-//for (int i = 1; i < 10; i++) {
+//for (int i = 0; i < personData.getQuantity(); i++) {
+for (int i = 15; i < 20; i++) {
     WebUI.callTestCase(findTestCase('SubTestCase/Ambassador Registration'), [('index') : i], FailureHandling.CONTINUE_ON_FAILURE)
 }
 
