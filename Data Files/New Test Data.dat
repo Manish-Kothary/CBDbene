@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>registration_details</name>
+   <name>New Test Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>ef42edd7-a322-425a-9a6f-f3fddf5e249f</dataFileGUID>
-   <dataSourceUrl>Data Files/Test data-priya.xlsx</dataSourceUrl>
+   <dataFileGUID>3c02c0d1-cb36-4162-bd1a-988f98a11b75</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

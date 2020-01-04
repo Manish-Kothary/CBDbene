@@ -18,7 +18,7 @@ public class Screenshot {
 	}
 
 	public String takeScreenshot(String filename){
-		String getFullDirectory =  CURRENT_SCREENSHOT_FOLDER + filename +".JPG"
+		String getFullDirectory =  CURRENT_SCREENSHOT_FOLDER + filename + ".JPG"
 		KeywordUtil.logInfo("Screenshot " + getFullDirectory + " taken.")
 		WebUI.delay(2)
 		WebUI.takeScreenshot(getFullDirectory)
