@@ -14,7 +14,7 @@ PersonData personData = new PersonData()
 
 Person person = personData.getRandomPerson()
 
-userOperation.addProductToMyCart(1)
+userOperation.addProductToMyCart(5)
 
 userOperation.checkout(person)
 //userOperation.checkout(firstName, lastName, email, phone, address, country, state, city, zipCode)

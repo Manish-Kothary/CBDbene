@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Ambassador funcionality not developed</description>
    <name>CBDbene-04_Ambassador_login</name>
-   <tag></tag>
+   <tag>wip</tag>
    <comment></comment>
    <testCaseGuid>3cbe55d9-2e71-420f-aa94-df6534bd0c60</testCaseGuid>
    <variable>

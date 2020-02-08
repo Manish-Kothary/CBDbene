@@ -1017,6 +1017,30 @@
          <value>review</value>
          <variableId>d190f42b-f5fc-4621-ad5d-0acf02e0d3fe</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da108379-dde5-4f3b-8f88-f72a41f0982e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ce75887-e13d-477e-9dee-2245cb7aef04</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d78f9e1-54b3-4f25-ad91-7e77fd00946b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54bd8213-f65e-4476-8b8b-044e40778ccb</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2f09225f-eb34-4218-a82e-fdb06b424297</guid>

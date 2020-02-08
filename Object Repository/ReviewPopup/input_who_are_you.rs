@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_close_sidebar</name>
+   <name>input_who_are_you</name>
    <tag></tag>
-   <elementGuidId>fbd5eb40-7e37-4f6a-8a43-2ee84885b364</elementGuidId>
+   <elementGuidId>d5941e7e-9ec2-4719-8b13-ea719b8c28bf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[@aria-label='icon: left'])[4]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;normal_login_profession&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

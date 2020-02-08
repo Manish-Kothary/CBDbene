@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URL List not updated</description>
    <name>CBdbene-07_Screenshots</name>
-   <tag></tag>
+   <tag>wip</tag>
    <comment></comment>
    <testCaseGuid>f4833f22-4667-40cb-a58c-1db628e752db</testCaseGuid>
 </TestCaseEntity>

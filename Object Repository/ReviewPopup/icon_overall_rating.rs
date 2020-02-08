@@ -6,12 +6,11 @@
    <elementGuidId>78ee3b1c-c7eb-4606-be02-dc1fe61ec57d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[text()='Overall rating']//following::*[@class='stars']//i[${starRating}]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[contains(text(),'Overall')]//following::li[contains(@class,'ant-rate-star')][${starRating}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

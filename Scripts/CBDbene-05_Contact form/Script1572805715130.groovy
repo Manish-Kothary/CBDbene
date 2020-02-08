@@ -11,8 +11,8 @@ Application.start()
 
 PersonData personData = new PersonData()
 
-for (int i = 1; i < personData.getQuantity(); i++) {
-//for (int i = 1; i < 10; i++) {
+//for (int i = 1; i < personData.getQuantity(); i++) {
+for (int i = 50; i < 60; i++) {
     WebUI.callTestCase(findTestCase('SubTestCase/Contact_Form'), [('index') : i], FailureHandling.CONTINUE_ON_FAILURE)
 }
 

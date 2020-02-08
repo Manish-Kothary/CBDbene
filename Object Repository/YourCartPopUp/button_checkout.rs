@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[contains(@href,'checkout')])[5]</value>
+         <value>(//*[contains(@href,'checkout')])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>

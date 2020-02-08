@@ -16,7 +16,7 @@ CheckoutPage checkout = new CheckoutPage()
 
 //checkout.billingAddress.displayAddressSection()
 
-checkout.billingAddress.enterData(firstName, lastName, email, phone, address, country, state, city, zipCode)
+checkout.billingAddress.clickContinueToShoppingButton()
 
 checkout.carrier.select(carrierOption)
 

@@ -13,22 +13,13 @@
    <testCaseLink>
       <guid>e7b80c6e-b14c-4656-9102-faf05dcbb5b1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-01_user_registration</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>a0bf8555-4a0c-44a1-b41a-2624913e9bdd</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>5</value>
-         </iterationEntity>
-         <testDataId>Data Files/registration_details</testDataId>
-      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>df9619df-b729-4b27-9b96-10159d637c7d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-02_Ambassador_registration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -109,46 +100,37 @@
    <testCaseLink>
       <guid>772aa88c-3533-4c91-8029-40b845084bae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-03_userlogin</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>e0065654-b47e-4bf8-8075-cb23c83f8bbd</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-15</value>
-         </iterationEntity>
-         <testDataId>Data Files/registration_details</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>e0065654-b47e-4bf8-8075-cb23c83f8bbd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>E MAIL ADDRESS</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>da690d46-77db-4541-a911-e965ce3a24ae</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e0065654-b47e-4bf8-8075-cb23c83f8bbd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CONTACT LAST NAME</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>3bf1c1c7-29d7-46b0-8e34-2585ecd95769</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e0065654-b47e-4bf8-8075-cb23c83f8bbd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ZIP CODE</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>270cdc1b-af90-4715-9745-d2e8471351a7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e0065654-b47e-4bf8-8075-cb23c83f8bbd</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CONTACT FIRST NAME</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>e3285886-949c-4de7-8e59-13ff70a64510</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>cc7a2ea4-90f8-49bc-b9ed-a87d4495880c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-04_Ambassador_login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -187,7 +169,7 @@
    <testCaseLink>
       <guid>1790096f-7430-452a-8f31-d69a1c25fb54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-05_Contact form</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -220,7 +202,7 @@
    <testCaseLink>
       <guid>e0ba5ebe-7b82-499e-b65e-401ffc592639</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-06_password_update</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -241,13 +223,13 @@
    <testCaseLink>
       <guid>972f8641-2bba-4ba4-8170-9f8b68963286</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBdbene-07_Screenshots</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>02c5841a-b549-4465-9875-af9e4c4ce30d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-08_admin-product update</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -694,7 +676,7 @@
    <testCaseLink>
       <guid>3c4d9996-52c4-4196-90fa-61176e75a6e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-09_image upload</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -802,7 +784,7 @@
    <testCaseLink>
       <guid>8d71d073-5002-4922-987f-a8beb4f327f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-11_Random_order_by_user_login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -883,7 +865,7 @@
    <testCaseLink>
       <guid>4b2c758e-61a8-433b-a524-753584b8f2ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-12_Random_order_user-with_saved_address_card_details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -958,7 +940,7 @@
    <testCaseLink>
       <guid>a419e25e-30c6-4fda-beb1-6e8ca48bef1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-13_Add_reviews</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1017,11 +999,35 @@
          <value>review</value>
          <variableId>d190f42b-f5fc-4621-ad5d-0acf02e0d3fe</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da108379-dde5-4f3b-8f88-f72a41f0982e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9ce75887-e13d-477e-9dee-2245cb7aef04</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d78f9e1-54b3-4f25-ad91-7e77fd00946b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54bd8213-f65e-4476-8b8b-044e40778ccb</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2f09225f-eb34-4218-a82e-fdb06b424297</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-14_faq</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1090,7 +1096,7 @@
    <testCaseLink>
       <guid>a516933e-207a-490d-a121-33a3dfb1194a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-15_forget_password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1111,7 +1117,7 @@
    <testCaseLink>
       <guid>559348eb-047c-4d8e-9376-0e341ba76425</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-01_user_registration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

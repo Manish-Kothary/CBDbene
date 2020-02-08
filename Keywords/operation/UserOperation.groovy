@@ -12,6 +12,7 @@ public class UserOperation {
 	
 	private static final TestCase ADD_A_PRODUCT = findTestCase('SubTestCase/Add_Product_To_Cart')
 	private static final TestCase CREATE_ORDER  = findTestCase('SubTestCase/Create_Order')
+	private static final TestCase CREATE_ORDER_LOGIN  = findTestCase('Test Cases/SubTestCase/Create_Order_Logged_IN')
 	private static final TestCase USER_REGISTRATION  = findTestCase('SubTestCase/Registration')
 	
 	public void addProductToMyCart(int quantity){
@@ -27,6 +28,18 @@ public class UserOperation {
 	public void checkout (Person person){
 		checkout(person.getFirstName(), person.getLastName(), person.getEmail(), person.getPhone(), person.getAddress1(),
 			person.getCountry(), person.getState(), person.getCity(), person.getZipCode())
+	}
+	
+	public void checkoutLogin(Person person){
+		checkoutLogin(person.getFirstName(), person.getLastName(), person.getEmail(), person.getPhone(), person.getAddress1(),
+			person.getCountry(), person.getState(), person.getCity(), person.getZipCode())
+	}
+	
+	public void checkoutLogin(String firstName, String lastName, String email, String phone, String address, String country, String state,
+		String city, String zipCode) {
+		WebUI.callTestCase(CREATE_ORDER_LOGIN, [('firstName') : firstName, ('lastName') : lastName, ('email') : email,
+			('phone') : phone, ('address') : address, ('country') : country, ('state') : state, ('city') : city,
+			('zipCode') : zipCode])
 	}
 	
 	public void checkout(String firstName, String lastName, String email, String phone, String address, String country, String state,
