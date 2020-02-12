@@ -20,7 +20,8 @@ public class LoginPage extends BasePage{
 	SIDEBAR = findTestObject("LoginPage/sidebar"),
 	TEXT_ACCOUNT_ALREADY_REGISTERED = findTestObject('LoginPage/text_account_already_registered'),
 	ICON_CLOSE_SIDEBAR = findTestObject('Object Repository/LoginPage/icon_close_sidebar'),
-	LINK_SIGN_IN = findTestObject('Object Repository/LoginPage/link_sign_in')
+	LINK_SIGN_IN = findTestObject('Object Repository/LoginPage/link_sign_in'),
+	LINK_REGISTER = findTestObject('Object Repository/LoginPage/link_register')
 
 	public LoginPage(){
 		WebOp.waitForElementVisible(INPUT_EMAIL)
@@ -101,5 +102,9 @@ public class LoginPage extends BasePage{
 	public void clickSignInLink(){
 		WebUI.delay(1)
 		WebUI.click(LINK_SIGN_IN)
+	}
+	
+	public void clickRegisterLink(){
+		WebUI.click(LINK_REGISTER)
 	}
 }

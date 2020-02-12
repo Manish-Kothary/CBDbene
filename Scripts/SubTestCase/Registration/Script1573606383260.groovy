@@ -19,6 +19,8 @@ LoginPage loginPage = new LoginPage()
 
 def password = Password.generate(person.getLastName(), person.getZipCode())
 
+loginPage.clickRegisterLink()
+
 loginPage.enterEmail(person.getEmail())
 
 loginPage.enterPassword(password)
