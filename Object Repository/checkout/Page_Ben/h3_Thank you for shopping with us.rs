@@ -4,7 +4,17 @@
    <name>h3_Thank you for shopping with us</name>
    <tag></tag>
    <elementGuidId>8a877367-a51d-4166-8029-af3a9c6b09cc</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[(text() = 'Thank you for shopping with us' or . = 'Thank you for shopping with us')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(text(),'Thank you')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -10,5 +10,6 @@ public class HomePage extends BasePage{
 	private FooterSection footerSection 	= new FooterSection()
 	
 	public HomePage (){
+		ageWarningPopup.closeAgeWarningPopUp()
 	}
 }

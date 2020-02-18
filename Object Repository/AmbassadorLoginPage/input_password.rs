@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_overall_rating</name>
+   <name>input_password</name>
    <tag></tag>
-   <elementGuidId>78ee3b1c-c7eb-4606-be02-dc1fe61ec57d</elementGuidId>
+   <elementGuidId>c105b64c-e627-45a7-9110-4ac9a1989c57</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[text()='Overall rating']//following::*[@class='stars']//i[${starRating}]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='login_password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

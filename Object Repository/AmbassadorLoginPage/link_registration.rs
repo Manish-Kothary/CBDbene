@@ -6,12 +6,12 @@
    <elementGuidId>827de7cc-02bf-4001-9056-cb4b6f00deaf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@href,'registration')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@href = '/US/ambassador-portal/registration' and (text() = 'Registration' or . = 'Registration')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href,'registration')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

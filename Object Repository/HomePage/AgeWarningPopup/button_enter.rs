@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Enter' or . = 'Enter')]</value>
+         <value>//*[@class='modal__heading-text']</value>
       </entry>
       <entry>
          <key>BASIC</key>

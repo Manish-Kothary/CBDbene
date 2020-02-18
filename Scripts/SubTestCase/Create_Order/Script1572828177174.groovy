@@ -23,3 +23,5 @@ checkout.carrier.select(carrierOption)
 checkout.carrier.clickContinueToShipping()
 
 checkout.paymentMethod.payWithCard(cardNumber, firstName, expirationDate, cvv)
+
+checkout.validateSuccessfulOrder()

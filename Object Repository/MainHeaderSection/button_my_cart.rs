@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@data-src='/images/cart-icon-1.svg']</value>
+         <value>//nav//*[contains(@data-src,'/images/cart-icon')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -23,10 +23,9 @@ def password = Password.generate(person.getLastName(), person.getZipCode())
 
 loginPage.login(person.getEmail(), password)
 
-loginPage.validateValidEmail()
 
 if(mainHeader.validateAccountName(person.getFirstName())){
-	mainHeader.clickLogout()
+	mainHeader.clickLogoutOption()
 }
 else{
 	KeywordUtil.markWarning("Error. Website Response took too long.")

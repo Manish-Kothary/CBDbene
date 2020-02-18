@@ -3,7 +3,7 @@
    <description></description>
    <name>link_register</name>
    <tag></tag>
-   <elementGuidId>bd9b2e37-1757-4e21-a16d-06b80b4d6b5b</elementGuidId>
+   <elementGuidId>72035dea-07b8-4066-8583-551720200150</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -24,6 +24,7 @@ public class PersonData {
 		String phone   	 = EXCEL_FILE.getValue("PHONE NUMBER", row).trim()
 		String email   	 = EXCEL_FILE.getValue("E MAIL ADDRESS", row).trim()
 		String zipCode   = EXCEL_FILE.getValue("ZIP CODE", row).trim()
+		phone = removePhonePrefix(phone)
 		KeywordUtil.logInfo("First Name: " + firstName)
 		KeywordUtil.logInfo("Last Name: " + lastName)
 		KeywordUtil.logInfo("Address 1: " + address1)
@@ -35,6 +36,14 @@ public class PersonData {
 		KeywordUtil.logInfo("Zip Code: " + zipCode)
 		return new Person(firstName,lastName,address1,address2,city,state,zipCode,phone,email)
 	} 
+	
+	public String removePhonePrefix(String phone){
+		if (phone.contains("[")){
+			return phone.substring(phone.indexOf("["),phone.indexOf("]") + 1)
+		}
+		else
+			return phone
+	}
 	
 	public Person getRandomPerson(){
 		int randomRow = new Random().nextInt(getQuantity())

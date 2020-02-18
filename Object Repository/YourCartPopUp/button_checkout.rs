@@ -6,11 +6,11 @@
    <elementGuidId>231f365b-6635-4b80-9471-6a9e22aefd7e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[contains(@href,'checkout')])[3]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//*[contains(@href,'checkout')])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

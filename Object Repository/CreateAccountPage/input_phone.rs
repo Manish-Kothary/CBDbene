@@ -4,7 +4,17 @@
    <name>input_phone</name>
    <tag></tag>
    <elementGuidId>660bc386-4d89-49bc-bcea-26520852b651</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@placeholder = '+1 (702) 123-4567' and @type = 'tel']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='phone-form-control']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CBdbene-07_Screenshots</name>
+   <name>Ambassador_Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f4833f22-4667-40cb-a58c-1db628e752db</testCaseGuid>
+   <testCaseGuid>e5bc8f79-ee52-425b-8f6e-32c2166842b0</testCaseGuid>
 </TestCaseEntity>

@@ -19,8 +19,8 @@ UserOperation userOperation = new UserOperation()
 
 PersonData personData = new PersonData()
 
-Person person = personData.getPerson(1)
+Person person = personData.getRandomPerson()
 
 userOperation.addProductToMyCart(1)
 
-userOperation.checkoutLogin(person)
+userOperation.checkout(person)

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_overall_rating</name>
+   <name>icon_close_window</name>
    <tag></tag>
-   <elementGuidId>78ee3b1c-c7eb-4606-be02-dc1fe61ec57d</elementGuidId>
+   <elementGuidId>5697f273-736d-4085-8762-f618053f27a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[text()='Overall rating']//following::*[@class='stars']//i[${starRating}]</value>
+         <value>//*[@class='modal-dismiss']//i</value>
       </entry>
       <entry>
          <key>BASIC</key>

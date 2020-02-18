@@ -14,8 +14,8 @@ HomePage homePage = new HomePage()
 
 PersonData personData = new PersonData()
 
-//for (int i = 1 ; i < personData.getQuantity();i++){
-for (int i = 300 ; i < 305; i++) {
+for (int i = 10 ; i < 20 ; i++){
+//for (int i = 500 ; i < 550; i++) {
 	WebUI.callTestCase(findTestCase('SubTestCase/Registration'), [('index') : i], FailureHandling.CONTINUE_ON_FAILURE)
 }
 

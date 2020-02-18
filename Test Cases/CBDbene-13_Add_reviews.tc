@@ -13,14 +13,14 @@
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'aeHFOx8jV/A=\r\n'</defaultValue>
+      <defaultValue>'password'</defaultValue>
       <description></description>
       <id>5530ed40-a331-499e-9576-3c90ea9aeffb</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'5'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>951621cb-7389-489e-894c-ea45d05f7fa1</id>
       <masked>false</masked>
@@ -55,38 +55,10 @@
       <name>headline</name>
    </variable>
    <variable>
-      <defaultValue>'test'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>d190f42b-f5fc-4621-ad5d-0acf02e0d3fe</id>
       <masked>false</masked>
       <name>review</name>
-   </variable>
-   <variable>
-      <defaultValue>'testing '</defaultValue>
-      <description></description>
-      <id>da108379-dde5-4f3b-8f88-f72a41f0982e</id>
-      <masked>false</masked>
-      <name>reviewTitle</name>
-   </variable>
-   <variable>
-      <defaultValue>'locationTest'</defaultValue>
-      <description></description>
-      <id>9ce75887-e13d-477e-9dee-2245cb7aef04</id>
-      <masked>false</masked>
-      <name>location</name>
-   </variable>
-   <variable>
-      <defaultValue>'nameTest'</defaultValue>
-      <description></description>
-      <id>5d78f9e1-54b3-4f25-ad91-7e77fd00946b</id>
-      <masked>false</masked>
-      <name>name</name>
-   </variable>
-   <variable>
-      <defaultValue>'25'</defaultValue>
-      <description></description>
-      <id>54bd8213-f65e-4476-8b8b-044e40778ccb</id>
-      <masked>false</masked>
-      <name>age</name>
    </variable>
 </TestCaseEntity>

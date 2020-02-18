@@ -6,11 +6,11 @@
    <elementGuidId>fbd5eb40-7e37-4f6a-8a43-2ee84885b364</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[@aria-label='icon: left'])[4]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//*[@data-icon='left'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

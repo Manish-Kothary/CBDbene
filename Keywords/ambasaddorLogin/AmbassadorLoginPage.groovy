@@ -11,20 +11,25 @@ import base.BasePage
 import loginPage.LoginPage
 
 public class AmbassadorLoginPage extends BasePage{
-	
+
 	private static final TestObject LINK_REGISTRATION = findTestObject('Object Repository/AmbassadorLoginPage/link_registration')
-	private LoginPage loginPage = new LoginPage()
+	private static final TestObject INPUT_EMAIL = findTestObject('Object Repository/AmbassadorLoginPage/input_email')
+	private static final TestObject INPUT_PASSWORD = findTestObject('Object Repository/AmbassadorLoginPage/input_password')
+	private static final TestObject BUTTON_LOGIN = findTestObject('Object Repository/AmbassadorLoginPage/button_login')
+	
 	
 	public AmbassadorLoginPage(){
 		Assert.assertTrue("Page not loaded", WebOp.waitForElementVisible(LINK_REGISTRATION))
 	}
-	
+
 	public void clickRegistrationLink(){
 		WebUI.delay(1)
 		WebUI.click(LINK_REGISTRATION)
 	}
 	
-	public void login(String email, String password){
-		loginPage.login(email, password)
-	}
+	 public void login(String email, String password){
+		 WebUI.setText(INPUT_EMAIL, email)
+		 WebUI.setText(INPUT_PASSWORD, password)
+		 WebUI.click(BUTTON_LOGIN)
+	 }
 }

@@ -169,7 +169,7 @@
    <testCaseLink>
       <guid>b9534e7c-22f2-402f-8753-acfb01e4cbc0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CBDbene-17_admin-delete-users</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

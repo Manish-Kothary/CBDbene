@@ -78,13 +78,9 @@ public class BillingAddressSection extends BasePage{
 //		enterCountry(country)
 //		enterState(state)
 //		enterCity(city)
-		clickContinueToShoppingButton()
-	}
-			
-	public void clickContinueToShoppingButton(){
 		WebUI.delay(1)
 		WebUI.click(BUTTON_CONTINUE_TO_SHOPPING)
-	}		
+	}
 			
 	public void searchAddress(String address){
 		WebOp.sendKeys(INPUT_ADDRESS, address)
